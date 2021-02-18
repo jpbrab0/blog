@@ -1,5 +1,5 @@
 <h1 align="center">
-  Next.js blog starter
+  Blog muito loko
 </h1>
 
 Start off your writing journey with this Next.js markdown blog template.
@@ -15,6 +15,8 @@ Start off your writing journey with this Next.js markdown blog template.
 - Markdown code highlighting with [react-syntax-highlighter](https://www.npmjs.com/package/react-syntax-highlighter) and [PrismJs](https://prismjs.com/).
 - Dark Mode
 - WebP image support
+- Gera thumbnails de artigo
+
 
 ## 🚀 Getting Started
 
@@ -54,18 +56,3 @@ You can check out [the Next.js GitHub repository](https://github.com/zeit/next.j
 To learn more about Tailwind CSS, take a look at the following resources:
 
 - [Tailwind Documentation](https://tailwindcss.com/) - learn about Tailwind CSS features and API.
-
-## ☑ Upcoming features
-
-- [ ] Add Sitemap
-- [ ] Add RSS Feed
-- [x] Dark Mode
-- [x] Add support for WebP images
-- [x] Add SEO Component
-- [x] Add Dynamic Site Metadata
-
-## ☁ Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Jfelix61/nextjs-starter-blog)
-
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/Jfelix61/nextjs-starter-blog)
