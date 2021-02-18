@@ -1,15 +1,15 @@
 {
   "siteMetadata": {
-    "title": "Next.js Starter Blog",
+    "title": "João Pedro",
     "author": {
-      "name": "Jose Felix",
-      "summary": "who works building clean user interfaces with React."
+      "name": "João Pedro",
+      "summary": "Web developer and linux student"
     },
-    "description": "A blog created with Next.js and Tailwind.css",
-    "siteUrl": "https://nextjs-starter-blog-demo.netlify.app/",
-    "language": "en-US",
+    "description": "I'm 13 years old and a Web developer from Brazil! I am currently studying the following technologies: Linux, NodeJs, Golang and Elixir!",
+    "siteUrl": "https://jpres.dev",
+    "language": "pt-BR",
     "social": {
-      "twitter": "Jose_R_Felix"
+      "twitter": "jpbrab0"
     }
   }
 }
