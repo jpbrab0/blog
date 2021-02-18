@@ -66,10 +66,10 @@ const LargeTitle = () => (
         className={clsx(
           "text-3xl font-black leading-none text-black no-underline font-display",
           "sm:text-5xl",
-          "dark:text-white"
+          "dark:text-white",
         )}
       >
-        Next.Js Starter Blog
+        João Pedro
       </a>
     </Link>
   </h1>
@@ -84,7 +84,7 @@ const SmallTitle = () => (
           "dark:text-white"
         )}
       >
-        Next.Js Starter Blog
+        João Pedro
       </a>
     </Link>
   </h1>
