@@ -1,6 +1,6 @@
 ---
 title: Primeiros passos com o Nunjucks!
-description: Neste artigo nós vamos entender um pouco do nunjucks!
+description: Neste artigo, vamos entender um pouco do nunjucks!
 date: 2021-02-18T11:00:00.000Z
 ---
 
@@ -216,7 +216,7 @@ server.post("/post", (request, response) => {
     // Desestruturando o request.body e pegando os dados dele.
     let { name, email } = request.body
     
-    // A Variavel do ID.
+    // A Variável do ID.
     const id = Number(data.dados.length + 1)
     // Inserindo no json os dados.
     data.dados.push({
@@ -257,7 +257,7 @@ nunjucks.configure("views", {
 })
 
 server.get("/", (request , response) => {
-    // Retornando uma variavel para o frontend.
+    // Retornando uma variável para o frontend.
     return response.render("home",{data: data.dados})
 })
 server.post("/post", (request, response) => {
@@ -328,7 +328,7 @@ Para finalizar, no arquivo "home.njk" vamos escrever:
 ```
 Repare que neste código acima temos um for, mas para que ele?
 
-O for foi utilizado para percorrer a variavel data que passamos no back-end e agora ele retorna outra variavel com o nome dados
+O for foi utilizado para percorrer a variável data que passamos no back-end e agora ele retorna outra variável com o nome dados
 
 Ou seja
 
