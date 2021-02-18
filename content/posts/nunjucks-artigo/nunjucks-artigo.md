@@ -1,7 +1,7 @@
 ---
 title: Primeiros passos com o Nunjucks!
 description: Neste artigo, vamos entender um pouco do nunjucks!
-date: 2021-02-18T11:00:00.000Z
+date: 2020-09-30T11:00:00.000Z
 ---
 
 Olá, pessoal! Sou o João Pedro e hoje por meio deste artigo venho falar sobre uma tecnologia que utilizo muito, o nunjucks, e também fazer um CRUD com ele!
