@@ -6,20 +6,29 @@ import style from "react-syntax-highlighter/dist/cjs/styles/prism/dracula";
 import { Layout, Image, SEO, Bio } from "@components/common";
 import { getPostBySlug, getPostsSlugs } from "@utils/posts";
 
-export default function Post({ post, frontmatter, nextPost, previousPost }) {
+export default function Post({ post, frontmatter, nextPost, previousPost, thumbnailUrl }) {
   return (
     <Layout>
+      
+      
       <SEO
         title={frontmatter.title}
         description={frontmatter.description || post.excerpt}
       />
 
+      <p className="text-sm">{frontmatter.date}</p>
+      <Link href="/">
+        <a className="text-lg font-bold">
+          ← Home
+        </a>
+      </Link>
       <article>
         <header className="mb-8">
-          <h1 className="mb-2 text-6xl font-black leading-none font-display">
+        <img src={thumbnailUrl} className="w-35 mb-5"/>
+          <h2 className="mb-2 text-4xl font-black leading-none font-display">
             {frontmatter.title}
-          </h1>
-          <p className="text-sm">{frontmatter.date}</p>
+          </h2>
+          <p>{frontmatter.description}</p>
         </header>
         <ReactMarkdown
           className="mb-4 prose lg:prose-lg dark:prose-dark"
@@ -57,7 +66,6 @@ export default function Post({ post, frontmatter, nextPost, previousPost }) {
 
 export async function getStaticPaths() {
   const paths = getPostsSlugs();
-
   return {
     paths,
     fallback: false,
@@ -89,9 +97,9 @@ const CodeBlock = ({ language, value }) => {
 const MarkdownImage = ({ alt, src }) => (
   <Image
     alt={alt}
-    src={require(`../../content/assets/${src}`)}
-    webpSrc={require(`../../content/assets/${src}?webp`)}
-    previewSrc={require(`../../content/assets/${src}?lqip`)}
+    src={src}
+    webpSrc={src}
+    previewSrc={src}
     className="w-full"
   />
 );
