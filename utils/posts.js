@@ -78,5 +78,10 @@ export function getPostBySlug(slug) {
   const previousPost = posts[postIndex + 1];
   const nextPost = posts[postIndex - 1];
 
-  return { frontmatter, post: { content, excerpt }, previousPost, nextPost };
+  const baseUrl = process.env.NODE_ENV === "development"
+    ? 'http://localhost:3000'
+    : 'https://blog.jpres.dev'
+
+  const thumbnailUrl = `${baseUrl}/api/thumbnail.png?title=${frontmatter.title}`
+  return { frontmatter, post: { content, excerpt }, previousPost, nextPost,thumbnailUrl };
 }
