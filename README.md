@@ -2,7 +2,7 @@
   Blog muito loko
 </h1>
 
-Repositório do meu blog, que é zika do baile
+Repositório do meu blog, que é do cão chupando manga
 
 ## ✏ Features
 
