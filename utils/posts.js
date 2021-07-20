@@ -82,6 +82,6 @@ export function getPostBySlug(slug) {
     ? 'http://localhost:3000'
     : 'https://blog.jpres.dev'
 
-  const thumbnailUrl = `${baseUrl}/api/thumbnail.png?title=${frontmatter.title}`
+  const thumbnailUrl = `${baseUrl}/api/thumbnail?title=${frontmatter.title}`
   return { frontmatter, post: { content, excerpt }, previousPost, nextPost,thumbnailUrl };
 }
