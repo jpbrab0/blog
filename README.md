@@ -2,14 +2,14 @@
   Blog muito loko
 </h1>
 
-Repositório do meu blog, que é zika do baile
+Repositório do meu blog, que é do cão chupando manga
 
 ## ✏ Features
 
-- Estilizado com [Tailwind.css](https://tailwindcss.com/).
-- Serverless functions.
-- Dark Mode.
-- Gera thumbnails a partir da url.
+- Estilizado com [Tailwind.css](https://tailwindcss.com/). 🖌️🖌️🖌️🖌️ 
+- Serverless functions. 💻💻💻💻
+- Dark Mode. 🧛🧛🧛🧛
+- Gera thumbnails a partir da url. 😎😎😎😎
 
 ## 📖 Learn More
 
